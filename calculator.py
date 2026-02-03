@@ -7,3 +7,8 @@ def subtract(a, b):
 def multiply(a, b):
     """Multiply two numbers.""" 
     return a * b
+
+def divide(a, b):
+    if b == 0:
+        return False
+    return a // b
